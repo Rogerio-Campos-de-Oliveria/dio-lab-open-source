@@ -43,7 +43,7 @@ while True:
             print("\nOperação Negada! O valor do saque excede o limite diário.")
 
         elif excedeu_saques:
-            print("Operação Negada! Número máximo de saques excedido.")
+            print("\nOperação Negada! Número máximo de saques excedido.")
 
         elif valor > 0:
             saldo -= valor
@@ -51,7 +51,7 @@ while True:
             numero_saques += 1
 
         else:
-            print("Operação falhou! O valor informado é inválido.")
+            print("\nOperação falhou! O valor informado é inválido.")
 
     elif opcao == "e":
         print("\n================ EXTRATO ================")
